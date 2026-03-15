@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+    <style>
+        h1 {
+            font-family: "Cedarville Cursive", cursive;
+            font-size: 45px;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap; /* wrap items to next row */
+            width: 660px; /* 3 images x 200px each + gaps */
+            gap: 10px;
+            margin: 0 auto; 
+        }
+
+        .gallery img {
+            width: 200px;  /* fixed width for 3 columns */
+            height: 200px; /* fixed height */
+            object-fit: cover; /* crop image nicely */
+            border-radius: 8px;
+            display: block;
+        }
+    </style>
+
+<title>This is Me</title>
+<link type="text/css" rel="stylesheet"
+href="css/my-first-stylesheet.css"/>
+</head>
+<body>
+    <nav style = "text-align: center;">
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="travel_gallery.html">Travel Gallery</a></li>
+        <li><a href="student.html">Campus Chronicles</a></li>
+        <li><a href="career.html">Career Adventures</a></li>
+        <li><a href="favorite.html">My Happy List</a></li>
+        </ul>
+    </nav>
+
+    <h1 style = "text-align: center;">Travel Gallery</h1>
+    <p>Here's a gallery of my travels around the world</p>
+
+    <div class="gallery" >
+        <img src="images/travels/travel_1.jpg" alt="Image 1">
+        <img src="images/travels/travel_2.jpg" alt="Image 2">
+        <img src="images/travels/travel_3.jpg" alt="Image 3">
+        <img src="images/travels/travel_4.jpg" alt="Image 1">
+        <img src="images/travels/travel_5.jpg" alt="Image 2">
+        <img src="images/travels/travel_6.jpg" alt="Image 3">
+        <img src="images/travels/travel_7.jpg" alt="Image 1">
+        <img src="images/travels/travel_8.jpg" alt="Image 2">
+        <img src="images/travels/travel_9.jpg" alt="Image 3">
+    </div>
+</body>
+</html>
