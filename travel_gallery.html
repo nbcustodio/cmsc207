@@ -1,170 +1,360 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>travel gallery</title>
-    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+    <title>Wandering Around</title>
+    <link rel="icon" type="image/x-icon" href="images/tulip.png">
+    <link href='https://fonts.googleapis.com/css?family=Julius Sans One' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Archivo Narrow' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Source Sans Pro' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet'>
     <link type="text/css" rel="stylesheet" href="css/my-first-stylesheet.css"/>
-    <style>
-        h1 {
-            font-family: "Cedarville Cursive", cursive;
-            font-size: 45px;
-        }
-        h2 {
-            font-family: "Cedarville Cursive", cursive;
-            font-size: 28px;
-        }
-        .gallery {
-            display: flex;
-            flex-wrap: wrap; /* wrap items to next row */
-            width: 90%; /* 3 images x 200px each + gaps */
-            gap: 10px;
-            margin: 0 auto; 
-        }
-
-        .gallery img {
-            width: 30%;  /* fixed width for 3 columns */
-            height: 30%; /* fixed height */
-            object-fit: cover; /* crop image nicely */
-            border-radius: 8px;
-            display: block;
-            margin: 0 auto; 
-        }
-    </style>
 </head>
 <body>
+    
+    <h1>Life Beyond Work and Deadlines</h1>
+    <h2>just me, figuring it all out as I go</h2>
+
     <nav style = "text-align: center;">
         <ul>
         <li><a href="index.html">home</a></li>
-        <li><a href="travel_gallery.html">travel gallery</a></li>
+        <li class="selected">wandering around</li>
         <li><a href="student.html">campus chronicles</a></li>
         <li><a href="career.html">career adventures</a></li>
         <li><a href="favorite.html">my happy list</a></li>
         </ul>
     </nav>
+    <br/>
 
-    <h1 style = "text-align: center;">travel gallery</h1>
-    <p>Here's a gallery of my travels around the world</p><br/><br/>
+    <p>I love traveling to new places and seeing what everyday life looks like around the world. Whether it's getting lost in streets or trying local food, I like finding small moments that feel special. This gallery is a mix of those fun memories from busy cities to quiet spots. This is my way to share some of the places I've enjoyed along the way.</p>
 
-    <p><img src="images/border.png" alt="travel_border" class="border-img"><br/></p>
+    <p><img src="images/border.png" alt="travel_border" class="border-img"></p>
 
-    <h2 style = "text-align: center;">dubai, united arab emirates</h2>
-    <div class="gallery" >
-        <img src="images/travels/dubai_1.jpg" alt="Image 1">
-        <img src="images/travels/dubai_2.jpg" alt="Image 2">
-        <img src="images/travels/dubai_3.jpg" alt="Image 3">
-    </div><br/><br/>
+    <h3 style = "text-align: center;">Dubai, United Arab Emirates</h3>
+    <div class="gallery">
+        <div class="image-container">
+            <img src="images/travels/dubai_1.jpg" alt="Image 1" class="image">
+            <div class="middle">
+                <div class="text">Miracle Garden</div>
+            </div>
+        </div>
 
-    <p><img src="images/border.png" alt="travel_border" class="border-img"><br/></p>
+        <div class="image-container">
+            <img src="images/travels/dubai_2.jpg" alt="Image 2" class="image">
+            <div class="middle">
+                <div class="text">Al Ghubaiba</div>
+            </div>
+        </div>
 
-    <h2 style = "text-align: center;">abu dhabi, united arab emirates</h2>
-    <div class="gallery" >
-        <img src="images/travels/abudhabi_1.jpg" alt="Image 1">
-        <img src="images/travels/abudhabi_2.jpg" alt="Image 2">
-        <img src="images/travels/abudhabi_3.jpg" alt="Image 3">
-    </div><br/><br/>
+        <div class="image-container">
+            <img src="images/travels/dubai_3.jpg" alt="Image 3" class="image">
+            <div class="middle">
+                <div class="text">Desert Safari</div>
+            </div>
+        </div>
+    </div>
+    <br/><br/>
 
-    <p><img src="images/border.png" alt="travel_border" class="border-img"><br/></p>
+    <h3 style = "text-align: center;">abu dhabi, united arab emirates</h3>
+    <div class="gallery">
+        <div class="image-container">
+            <img src="images/travels/abudhabi_1.jpg" alt="Image 1" class="image">
+            <div class="middle">
+                <div class="text">Lego Land</div>
+            </div>
+        </div>
 
-    <h2 style = "text-align: center;">hong kong</h2>
-    <div class="gallery" >
-        <img src="images/travels/hk_1.jpg" alt="Image 1">
-        <img src="images/travels/hk_2.jpg" alt="Image 2">
-        <img src="images/travels/hk_3.jpg" alt="Image 3">
-    </div><br/><br/>
+        <div class="image-container">
+            <img src="images/travels/abudhabi_2.jpg" alt="Image 2" class="image">
+            <div class="middle">
+                <div class="text">Louvre Museum</div>
+            </div>
+        </div>
 
-    <p><img src="images/border.png" alt="travel_border" class="border-img"><br/></p>
+        <div class="image-container">
+            <img src="images/travels/abudhabi_3.jpg" alt="Image 3" class="image">
+            <div class="middle">
+                <div class="text">Sheikh Zayed Grand Mosque</div>
+            </div>
+        </div>
+    </div>
+    <br/><br/>
 
-    <h2 style = "text-align: center;">japan</h2>
-    <div class="gallery" >
-        <img src="images/travels/japan_1.jpg" alt="Image 1">
-        <img src="images/travels/japan_2.jpg" alt="Image 2">
-        <img src="images/travels/japan_3.jpg" alt="Image 3">
-    </div><br/><br/>
+    <h3 style = "text-align: center;">hong kong</h3>
+    <div class="gallery">
+        <div class="image-container">
+            <img src="images/travels/hk_1.jpg" alt="Image 1" class="image">
+            <div class="middle">
+                <div class="text">Disneyland</div>
+            </div>
+        </div>
 
-    <p><img src="images/border.png" alt="travel_border" class="border-img"><br/></p>
+        <div class="image-container">
+            <img src="images/travels/hk_2.jpg" alt="Image 2" class="image">
+            <div class="middle">
+                <div class="text">trying out the famous egg tart</div>
+            </div>
+        </div>
 
-    <h2 style = "text-align: center;">macau</h2>
-    <div class="gallery" >
-        <img src="images/travels/macau_1.jpg" alt="Image 1">
-        <img src="images/travels/macau_2.jpg" alt="Image 2">
-        <img src="images/travels/macau_3.jpg" alt="Image 3">
-    </div><br/><br/>
+        <div class="image-container">
+            <img src="images/travels/hk_3.jpg" alt="Image 3" class="image">
+            <div class="middle">
+                <div class="text">Disneyland again, bcos why not?</div>
+            </div>
+        </div>
+    </div>
+    <br/><br/>
 
-    <p><img src="images/border.png" alt="travel_border" class="border-img"><br/></p>
+    <h3 style = "text-align: center;">japan</h3>
+    <div class="gallery">
+        <div class="image-container">
+            <img src="images/travels/japan_1.jpg" alt="Image 1" class="image">
+            <div class="middle">
+                <div class="text">Sensoji Temple</div>
+            </div>
+        </div>
 
-    <h2 style = "text-align: center;">taiwan</h2>
-    <div class="gallery" >
-        <img src="images/travels/taiwan_1.jpg" alt="Image 1">
-        <img src="images/travels/taiwan_2.jpg" alt="Image 2">
-        <img src="images/travels/taiwan_3.jpg" alt="Image 3">
-    </div><br/><br/>
+        <div class="image-container">
+            <img src="images/travels/japan_2.jpg" alt="Image 2" class="image">
+            <div class="middle">
+                <div class="text">first ever snow experience</div>
+            </div>
+        </div>
 
-    <p><img src="images/border.png" alt="travel_border" class="border-img"><br/></p>
+        <div class="image-container">
+            <img src="images/travels/japan_3.jpg" alt="Image 3" class="image">
+            <div class="middle">
+                <div class="text">cherry blossoms!!</div>
+            </div>
+        </div>
+    </div>
+    <br/><br/>
 
-    <h2 style = "text-align: center;">vietnam</h2>
-    <div class="gallery" >
-        <img src="images/travels/vietnam_1.jpg" alt="Image 1">
-        <img src="images/travels/vietnam_2.jpg" alt="Image 2">
-        <img src="images/travels/vietnam_3.jpg" alt="Image 3">
-    </div><br/><br/>
+    <h3 style = "text-align: center;">macau</h3>
+    <div class="gallery">
+        <div class="image-container">
+            <img src="images/travels/macau_1.jpg" alt="Image 1" class="image">
+            <div class="middle">
+                <div class="text">Fisherman's Wharf</div>
+            </div>
+        </div>
 
-    <p><img src="images/border.png" alt="travel_border" class="border-img"><br/></p>
+        <div class="image-container">
+            <img src="images/travels/macau_2.jpg" alt="Image 2" class="image">
+            <div class="middle">
+                <div class="text">Ruins of Saint Paul</div>
+            </div>
+        </div>
 
-    <h2 style = "text-align: center;">aklan</h2>
-    <div class="gallery" >
-        <img src="images/travels/taiwan_1.jpg" alt="Image 1">
-        <img src="images/travels/taiwan_2.jpg" alt="Image 2">
-        <img src="images/travels/taiwan_3.jpg" alt="Image 3">
-    </div><br/><br/>
+        <div class="image-container">
+            <img src="images/travels/macau_3.jpg" alt="Image 3" class="image">
+            <div class="middle">
+                <div class="text">Grand Lisboa</div>
+            </div>
+        </div>
+    </div>
+    <br/><br/>
 
-    <p><img src="images/border.png" alt="travel_border" class="border-img"><br/></p>
+    <h3 style = "text-align: center;">taiwan</h3>
+    <div class="gallery">
+        <div class="image-container">
+            <img src="images/travels/taiwan_1.jpg" alt="Image 1" class="image">
+            <div class="middle">
+                <div class="text">Zhongshe Flower Market</div>
+            </div>
+        </div>
 
-    <h2 style = "text-align: center;">antique</h2>
-    <div class="gallery" >
-        <img src="images/travels/antique_1.jpg" alt="Image 1">
-        <img src="images/travels/antique_2.jpg" alt="Image 2">
-        <img src="images/travels/antique_3.jpg" alt="Image 3">
-    </div><br/><br/>
+        <div class="image-container">
+            <img src="images/travels/taiwan_2.jpg" alt="Image 2" class="image">
+            <div class="middle">
+                <div class="text">Chiang Kai-Shek Memorial Hall</div>
+            </div>
+        </div>
 
-    <p><img src="images/border.png" alt="travel_border" class="border-img"><br/></p>
+        <div class="image-container">
+            <img src="images/travels/taiwan_3.jpg" alt="Image 3" class="image">
+            <div class="middle">
+                <div class="text">Yehliu Geopark</div>
+            </div>
+        </div>
+    </div>
+    <br/><br/>
 
-    <h2 style = "text-align: center;">baguio</h2>
-    <div class="gallery" >
-        <img src="images/travels/baguio_1.jpg" alt="Image 1">
-        <img src="images/travels/baguio_2.jpg" alt="Image 2">
-        <img src="images/travels/baguio_3.jpg" alt="Image 3">
-    </div><br/><br/>
+    <h3 style = "text-align: center;">vietnam</h3>
+    <div class="gallery">
+        <div class="image-container">
+            <img src="images/travels/vietnam_1.jpg" alt="Image 1" class="image">
+            <div class="middle">
+                <div class="text">a big bowl of pho is a must</div>
+            </div>
+        </div>
 
-    <p><img src="images/border.png" alt="travel_border" class="border-img"><br/></p>
+        <div class="image-container">
+            <img src="images/travels/vietnam_2.jpg" alt="Image 2" class="image">
+            <div class="middle">
+                <div class="text">cable car with the gang</div>
+            </div>
+        </div>
 
-    <h2 style = "text-align: center;">balesin</h2>
-    <div class="gallery" >
-        <img src="images/travels/balesin_1.jpg" alt="Image 1">
-        <img src="images/travels/balesin_2.jpg" alt="Image 2">
-        <img src="images/travels/balesin_3.jpg" alt="Image 3">
-    </div><br/><br/>
+        <div class="image-container">
+            <img src="images/travels/vietnam_3.jpg" alt="Image 3" class="image">
+            <div class="middle">
+                <div class="text">top view of Catcat Village</div>
+            </div>
+        </div>
+    </div>
+    <br/><br/>
 
-    <p><img src="images/border.png" alt="travel_border" class="border-img"><br/></p>
+    <h3 style = "text-align: center;">aklan</h3>
+    <div class="gallery">
+        <div class="image-container">
+            <img src="images/travels/aklan_1.jpg" alt="Image 1" class="image">
+            <div class="middle">
+                <div class="text">a warm welcome from Kalibo</div>
+            </div>
+        </div>
 
-    <h2 style = "text-align: center;">bicol</h2>
-    <div class="gallery" >
-        <img src="images/travels/bicol_1.jpg" alt="Image 1">
-        <img src="images/travels/bicol_2.jpg" alt="Image 2">
-        <img src="images/travels/bicol_3.jpg" alt="Image 3">
-    </div><br/><br/>
+        <div class="image-container">
+            <img src="images/travels/aklan_2.jpg" alt="Image 2" class="image">
+            <div class="middle">
+                <div class="text">ati-atihan festival</div>
+            </div>
+        </div>
 
-    <p><img src="images/border.png" alt="travel_border" class="border-img"><br/></p>
+        <div class="image-container">
+            <img src="images/travels/aklan_3.jpg" alt="Image 3" class="image">
+            <div class="middle">
+                <div class="text">oysters is a must</div>
+            </div>
+        </div>
+    </div>
+    <br/><br/>
 
-    <h2 style = "text-align: center;">bohol</h2>
-    <div class="gallery" >
-        <img src="images/travels/bohol_1.jpg" alt="Image 1">
-        <img src="images/travels/bohol_2.jpg" alt="Image 2">
-        <img src="images/travels/bohol_3.jpg" alt="Image 3">
-    </div><br/><br/>
+    <h3 style = "text-align: center;">antique</h3>
+    <div class="gallery">
+        <div class="image-container">
+            <img src="images/travels/antique_1.jpg" alt="Image 1" class="image">
+            <div class="middle">
+                <div class="text">Mararison Island</div>
+            </div>
+        </div>
 
-    <p><img src="images/border.png" alt="travel_border" class="border-img"><br/></p>
+        <div class="image-container">
+            <img src="images/travels/antique_2.jpg" alt="Image 2" class="image">
+            <div class="middle">
+                <div class="text">kawa hot bath</div>
+            </div>
+        </div>
 
-    <h2 style = "text-align: center;">boracay</h2>
+        <div class="image-container">
+            <img src="images/travels/antique_3.jpg" alt="Image 3" class="image">
+            <div class="middle">
+                <div class="text">rock balancing in Tibiao River</div>
+            </div>
+        </div>
+    </div>
+    <br/><br/>
+
+    <h3 style = "text-align: center;">baguio</h3>
+    <div class="gallery">
+        <div class="image-container">
+            <img src="images/travels/baguio_1.jpg" alt="Image 1" class="image">
+            <div class="middle">
+                <div class="text">Valley of Colors</div>
+            </div>
+        </div>
+
+        <div class="image-container">
+            <img src="images/travels/baguio_2.jpg" alt="Image 2" class="image">
+            <div class="middle">
+                <div class="text">cacti for sale</div>
+            </div>
+        </div>
+
+        <div class="image-container">
+            <img src="images/travels/baguio_3.jpg" alt="Image 3" class="image">
+            <div class="middle">
+                <div class="text">Session Road</div>
+            </div>
+        </div>
+    </div>
+    <br/><br/>
+
+    <h3 style = "text-align: center;">balesin</h3>
+    <div class="gallery">
+        <div class="image-container">
+            <img src="images/travels/balesin_1.jpg" alt="Image 1" class="image">
+            <div class="middle">
+                <div class="text">need..</div>
+            </div>
+        </div>
+
+        <div class="image-container">
+            <img src="images/travels/balesin_2.jpg" alt="Image 2" class="image">
+            <div class="middle">
+                <div class="text">i..</div>
+            </div>
+        </div>
+
+        <div class="image-container">
+            <img src="images/travels/balesin_3.jpg" alt="Image 3" class="image">
+            <div class="middle">
+                <div class="text">say more?</div>
+            </div>
+        </div>
+    </div>
+    <br/><br/>
+
+    <h3 style = "text-align: center;">bicol</h3>
+    <div class="gallery">
+        <div class="image-container">
+            <img src="images/travels/bicol_1.jpg" alt="Image 1" class="image">
+            <div class="middle">
+                <div class="text">Cagsawa Ruins</div>
+            </div>
+        </div>
+
+        <div class="image-container">
+            <img src="images/travels/bicol_2.jpg" alt="Image 2" class="image">
+            <div class="middle">
+                <div class="text">Mount Mayon showing itself</div>
+            </div>
+        </div>
+
+        <div class="image-container">
+            <img src="images/travels/bicol_3.jpg" alt="Image 3" class="image">
+            <div class="middle">
+                <div class="text">ATV adventure towards Mount Mayon</div>
+            </div>
+        </div>
+    </div>
+    <br/><br/>
+
+    <h3 style = "text-align: center;">bohol</h3>
+    <div class="gallery">
+        <div class="image-container">
+            <img src="images/travels/bohol_1.jpg" alt="Image 1" class="image">
+            <div class="middle">
+                <div class="text">Manmade Forest</div>
+            </div>
+        </div>
+
+        <div class="image-container">
+            <img src="images/travels/bohol_2.jpg" alt="Image 2" class="image">
+            <div class="middle">
+                <div class="text">Tarsier Sanctuary</div>
+            </div>
+        </div>
+
+        <div class="image-container">
+            <img src="images/travels/bohol_3.jpg" alt="Image 3" class="image">
+            <div class="middle">
+                <div class="text">Chocolate Hills</div>
+            </div>
+        </div>
+    </div>
+    <br/><br/>
+
+    <h3 style = "text-align: center;">boracay</h3>
     <div class="gallery" >
         <img src="images/travels/bora_1.jpg" alt="Image 1">
         <img src="images/travels/bora_2.jpg" alt="Image 2">
@@ -173,7 +363,7 @@
 
     <p><img src="images/border.png" alt="travel_border" class="border-img"><br/></p>
 
-    <h2 style = "text-align: center;">bukidnon</h2>
+    <h3 style = "text-align: center;">bukidnon</h3>
     <div class="gallery" >
         <img src="images/travels/bukidnon_1.jpg" alt="Image 1">
         <img src="images/travels/bukidnon_2.jpg" alt="Image 2">
@@ -182,7 +372,7 @@
 
     <p><img src="images/border.png" alt="travel_border" class="border-img"><br/></p>
 
-    <h2 style = "text-align: center;">coron</h2>
+    <h3 style = "text-align: center;">coron</h3>
     <div class="gallery" >
         <img src="images/travels/coron_1.jpg" alt="Image 1">
         <img src="images/travels/coron_2.jpg" alt="Image 2">
@@ -191,7 +381,7 @@
 
     <p><img src="images/border.png" alt="travel_border" class="border-img"><br/></p>
 
-    <h2 style = "text-align: center;">cotabato</h2>
+    <h3 style = "text-align: center;">cotabato</h3>
     <div class="gallery" >
         <img src="images/travels/cotabato_1.jpg" alt="Image 1">
         <img src="images/travels/cotabato_2.jpg" alt="Image 2">
@@ -200,7 +390,7 @@
 
     <p><img src="images/border.png" alt="travel_border" class="border-img"><br/></p>
 
-    <h2 style = "text-align: center;">davao</h2>
+    <h3 style = "text-align: center;">davao</h3>
     <div class="gallery" >
         <img src="images/travels/davao_1.jpg" alt="Image 1">
         <img src="images/travels/davao_2.jpg" alt="Image 2">
@@ -209,7 +399,7 @@
 
     <p><img src="images/border.png" alt="travel_border" class="border-img"><br/></p>
 
-    <h2 style = "text-align: center;">dumaguete</h2>
+    <h3 style = "text-align: center;">dumaguete</h3>
     <div class="gallery" >
         <img src="images/travels/dumaguete_1.jpg" alt="Image 1">
         <img src="images/travels/dumaguete_2.jpg" alt="Image 2">
@@ -218,7 +408,7 @@
 
     <p><img src="images/border.png" alt="travel_border" class="border-img"><br/></p>
 
-    <h2 style = "text-align: center;">general santos city</h2>
+    <h3 style = "text-align: center;">general santos city</h3>
     <div class="gallery" >
         <img src="images/travels/gensan_1.jpg" alt="Image 1">
         <img src="images/travels/gensan_2.jpg" alt="Image 2">
@@ -227,7 +417,7 @@
 
     <p><img src="images/border.png" alt="travel_border" class="border-img"><br/></p>
 
-    <h2 style = "text-align: center;">la union</h2>
+    <h3 style = "text-align: center;">la union</h3>
     <div class="gallery" >
         <img src="images/travels/la union_1.jpg" alt="Image 1">
         <img src="images/travels/la union_2.jpg" alt="Image 2">
@@ -236,7 +426,7 @@
 
     <p><img src="images/border.png" alt="travel_border" class="border-img"><br/></p>
 
-    <h2 style = "text-align: center;">lake sebu</h2>
+    <h3 style = "text-align: center;">lake sebu</h3>
     <div class="gallery" >
         <img src="images/travels/lake sebu_1.jpg" alt="Image 1">
         <img src="images/travels/lake sebu_2.jpg" alt="Image 2">
@@ -245,7 +435,7 @@
 
     <p><img src="images/border.png" alt="travel_border" class="border-img"><br/></p>
 
-    <h2 style = "text-align: center;">pangasinan</h2>
+    <h3 style = "text-align: center;">pangasinan</h3>
     <div class="gallery" >
         <img src="images/travels/pangasinan_1.jpg" alt="Image 1">
         <img src="images/travels/pangasinan_2.jpg" alt="Image 2">
@@ -254,7 +444,7 @@
 
     <p><img src="images/border.png" alt="travel_border" class="border-img"><br/></p>
 
-    <h2 style = "text-align: center;">puerto princesa</h2>
+    <h3 style = "text-align: center;">puerto princesa</h3>
     <div class="gallery" >
         <img src="images/travels/puerto_1.jpg" alt="Image 1">
         <img src="images/travels/puerto_2.jpg" alt="Image 2">
@@ -263,7 +453,7 @@
 
     <p><img src="images/border.png" alt="travel_border" class="border-img"><br/></p>
 
-    <h2 style = "text-align: center;">roxas</h2>
+    <h3 style = "text-align: center;">roxas</h3>
     <div class="gallery" >
         <img src="images/travels/roxas_1.jpg" alt="Image 1">
         <img src="images/travels/roxas_2.jpg" alt="Image 2">
@@ -272,7 +462,7 @@
 
     <p><img src="images/border.png" alt="travel_border" class="border-img"><br/></p>
 
-    <h2 style = "text-align: center;">siquijor</h2>
+    <h3 style = "text-align: center;">siquijor</h3>
     <div class="gallery" >
         <img src="images/travels/siquijor_1.jpg" alt="Image 1">
         <img src="images/travels/siquijor_2.jpg" alt="Image 2">
@@ -281,7 +471,7 @@
 
     <p><img src="images/border.png" alt="travel_border" class="border-img"><br/></p>
 
-    <h2 style = "text-align: center;">zambales</h2>
+    <h3 style = "text-align: center;">zambales</h3>
     <div class="gallery" >
         <img src="images/travels/zambales_1.jpg" alt="Image 1">
         <img src="images/travels/zambales_2.jpg" alt="Image 2">
@@ -290,7 +480,7 @@
 
     <p><img src="images/border.png" alt="travel_border" class="border-img"><br/></p>
 
-    <h2 style = "text-align: center;">zamboanga</h2>
+    <h3 style = "text-align: center;">zamboanga</h3>
     <div class="gallery" >
         <img src="images/travels/zamboanga_1.jpg" alt="Image 1">
         <img src="images/travels/zamboanga_2.jpg" alt="Image 2">
