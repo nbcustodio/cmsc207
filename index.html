@@ -1,122 +1,151 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Welcome to my life!</title>
-    <link rel="icon" type="image/x-icon" href="images/tulip.png">
-    <link href='https://fonts.googleapis.com/css?family=Julius Sans One' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Archivo Narrow' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Source Sans Pro' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet'>
-    <link type="text/css" rel="stylesheet" href="css/my-first-stylesheet.css"/>
-</head>
-<body>
-    
-    <h1>Life Beyond Work and Deadlines</h1>
-    <h2>just me, figuring it all out as I go</h2>
+    <head>
+        <title>icanicanic | home</title>
+        <link rel="icon" type="image/x-icon" href="images/tulip.png">
+        <link href='https://fonts.googleapis.com/css?family=Julius Sans One' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Archivo Narrow' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Source Sans Pro' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet'>
+        <link type="text/css" rel="stylesheet" href="css/my-first-stylesheet.css"/>
+    </head>
+    <body>
+        
+        <h1>Life Beyond Work and Deadlines</h1>
+        <hr>
+        <h2>just me, figuring it all out as I go</h2>
 
-    <nav style = "text-align: center;">
-        <ul>
-        <li class="selected">home</li>
-        <li><a href="travel_gallery.html">wandering around</a></li>
-        <li><a href="student.html">campus chronicles</a></li>
-        <li><a href="career.html">career adventures</a></li>
-        <li><a href="favorite.html">my happy list</a></li>
-        </ul>
-    </nav>
+        <nav style = "text-align: center;">
+            <ul>
+                <li class="selected">home</li>
+                <li><a href="travel_gallery.html">wandering around</a></li>
+                <li><a href="student.html">campus chronicles</a></li>
+                <li><a href="career.html">career adventures</a></li>
+                <li><a href="favorite.html">my happy list</a></li>
+            </ul>
+        </nav>
 
-    <p><img src="images/banner.png" alt="This is me" class="banner"><br/></p>
-    <p>Welcome! I'm Nica :)<br/><br/>
-        I am an Applied Mathematics graduate from UP Los Baños, now diving deeper into the world of technology as a Diploma in Computer Science student at UP Open University. By day, I serve as a Director at one of the leading firms in health, wealth, and people consulting. We turn data and strategy into decisions that affect real lives.<br/><br/>
-        This website is my little corner of the internet: a curated mix of stories, snapshots and reflections from my journey so far. You'll know the twists and turns (and all the tiny moments in between) that continue to shape who I am.</p>
+        <p><img src="images/banner.png" alt="This is me" class="banner"><br/></p>
+        <p>Welcome! I'm Nica :)</p>
+        <p>I am an Applied Mathematics graduate from UP Los Baños, now diving deeper into the world of technology as a Diploma in Computer Science student at UP Open University. By day, I serve as a Director at one of the leading firms in health, wealth, and people consulting. We turn data and strategy into decisions that affect real lives.</p>
+        <p>This website is my little corner of the internet: a curated mix of stories, snapshots and reflections from my journey so far. You'll know the twists and turns (and all the tiny moments in between) that continue to shape who I am.</p>
+ 
+        <button onclick="showFunFact()" class="fun-btn">Click for a fun fact about me :)</button>
+        <p id="fun-fact" style="text-align:center; font-family: 'Pacifico'; font-weight: lightest; font-size: larger; color: #3e7089;"></p>
 
-    <img src="images/border.png" alt="border" class="border-img">
+        <img src="images/border.png" alt="border" class="border-img">
 
-    <h3>Obsessions and Oddities</h3>
+        <h3>Obsessions and Oddities</h3>
 
-    <p>I've always felt that the things we keep coming back to say a lot about who we are. This little corner is for those obsessions that quietly shape my days and keep me curious. They're the small joys that add a bit of color and chaos to my everyday. Welcome to the behind the scenes at what I genuinely enjoy, beyond the usual bio details.<br/><br/>
-        I discovered <span style = "font-family: 'Pacifico'; font-weight: lighter; color: #3e5f70;"><b>crocheting</b></span> back during the height of the pandemic. I love puzzles and for me, crocheting feels a bit like puzzling with a touch of math woven into the patterns. I could go on all day just looping through yarn but since I'm always drawn to trying new things, I have a loooooooot of works in progress right now.<br/><br/>
-        Amigurumis like the ones below are the cutest things you can make but they're a pain to work on since you need to keep the yarn tight and they're always so small. Still, they're undeniably adorable and totally worth the effort. I also make wearables and I’ve already made some cozy pieces for my best friend.</p>
-    
-    <div class="gallery">
-        <div class="image-container">
-            <img src="images/hobbies/crochet_1.png" alt="Image 1" class="image">
-            <div class="middle">
-                <div class="text">my very first amigurumi</div>
+        <p>I've always felt that the things we keep coming back to say a lot about who we are. This little corner is for those obsessions that quietly shape my days and keep me curious. They're the small joys that add a bit of color and chaos to my everyday. Welcome to the behind the scenes at what I genuinely enjoy, beyond the usual bio details.<br/><br/>
+            I discovered <span style = "font-family: 'Pacifico'; font-weight: lighter; color: #3e5f70;"><b>crocheting</b></span> back during the height of the pandemic. I love puzzles and for me, crocheting feels a bit like puzzling with a touch of math woven into the patterns. I could go on all day just looping through yarn but since I'm always drawn to trying new things, I have a loooooooot of works in progress right now.<br/><br/>
+            Amigurumis like the ones below are the cutest things you can make but they're a pain to work on since you need to keep the yarn tight and they're always so small. Still, they're undeniably adorable and totally worth the effort. I also make wearables and I’ve already made some cozy pieces for my best friend.</p>
+        
+        <div class="gallery">
+            <div class="image-container">
+                <img src="images/hobbies/crochet_1.png" alt="Image 1" class="image">
+                <div class="middle">
+                    <div class="text">my very first amigurumi</div>
+                </div>
+            </div>
+
+            <div class="image-container">
+                <img src="images/hobbies/crochet_2.png" alt="Image 2" class="image">
+                <div class="middle">
+                    <div class="text">started a wearable -- but didn't finish</div>
+                </div>
+            </div>
+
+            <div class="image-container">
+                <img src="images/hobbies/crochet_3.png" alt="Image 3" class="image">
+                <div class="middle">
+                    <div class="text">gave this one to a friend</div>
+                </div>
             </div>
         </div>
+        <br/>
 
-        <div class="image-container">
-            <img src="images/hobbies/crochet_2.png" alt="Image 2" class="image">
-            <div class="middle">
-                <div class="text">started a wearable -- but didn't finish</div>
+        <p>Another thing that I truly enjoy is <span style = "font-family: 'Pacifico'; font-weight: lighter; color: #3e5f70;"><b>driving</b></span>. Whenever there's a lot on my mind, a long drive helps clear my head and reset my mood. Back in 2020, I was blessed with a car and I named him <a href="https://www.marvel.com/characters/iron-man-tony-stark" target="_blank">Stark</a>, after my favorite Marvel character. Since then, he's taken me to places I never thought I'd reach and I'm grateful I get to share those little road adventures with my family and friends.</p>
+
+        <div class="gallery">
+            <div class="image-container">
+                <img src="images/hobbies/drive_1.png" alt="Image 1" class="image">
+                <div class="middle">
+                    <div class="text">one roadtrip to Makiling</div>
+                </div>
+            </div>
+
+            <div class="image-container">
+                <img src="images/hobbies/drive_2.jpg" alt="Image 2" class="image">
+                <div class="middle">
+                    <div class="text">Stark 𖹭</div>
+                </div>
+            </div>
+
+            <div class="image-container">
+                <img src="images/hobbies/drive_3.jpg" alt="Image 3" class="image">
+                <div class="middle">
+                    <div class="text">went go karting in Carmona</div>
+                </div>
             </div>
         </div>
+        <br/>
 
-        <div class="image-container">
-            <img src="images/hobbies/crochet_3.png" alt="Image 3" class="image">
-            <div class="middle">
-                <div class="text">gave this one to a friend</div>
+        <p>I like spending my free time practicing <span style = "font-family: 'Pacifico'; font-weight: lighter; color: #3e5f70;"><b>calligraphy</b></span> and exploring <span style = "font-family: 'Pacifico'; font-weight: lighter; color: #3e5f70;"><b>typography</b></span>. I usually write my favorite phrases from the books I read or the shows I watch, trying different pens, brushes and lettering styles. My works aren't perfect but I enjoy slowly improving and learning new techniques as I go. Writing, in general, has become a small escape for me when I feel stressed. It is a simple and relaxing hobby that lets me play around with letters while enjoying words and lines that stand out to me.</p>
+
+        <div class="gallery">
+            <div class="image-container">
+                <img src="images/hobbies/calli_1.jpg" alt="Image 1" class="image">
+                <div class="middle">
+                    <div class="text">Thirteen Reasons Why</div>
+                </div>
+            </div>
+
+            <div class="image-container">
+                <img src="images/hobbies/calli_2.jpg" alt="Image 2" class="image">
+                <div class="middle">
+                    <div class="text">A Self Portrait in Letters</div>
+                </div>
+            </div>
+
+            <div class="image-container">
+                <img src="images/hobbies/calli_3.jpg" alt="Image 3" class="image">
+                <div class="middle">
+                    <div class="text">You Know Me Well</div>
+                </div>
             </div>
         </div>
-    </div>
-    <br/>
+        <br>
 
-    <p>Another thing that I truly enjoy is <span style = "font-family: 'Pacifico'; font-weight: lighter; color: #3e5f70;"><b>driving</b></span>. Whenever there's a lot on my mind, a long drive helps clear my head and reset my mood. Back in 2020, I was blessed with a car and I named him <a href="https://www.marvel.com/characters/iron-man-tony-stark" target="_blank">Stark</a>, after my favorite Marvel character. Since then, he's taken me to places I never thought I'd reach and I'm grateful I get to share those little road adventures with my family and friends.</p>
+        <img src="images/border.png" alt="border" class="border-img">
 
-    <div class="gallery">
-        <div class="image-container">
-            <img src="images/hobbies/drive_1.png" alt="Image 1" class="image">
-            <div class="middle">
-                <div class="text">one roadtrip to Makiling</div>
-            </div>
-        </div>
+        <h3>Get in touch with me</h3>
 
-        <div class="image-container">
-            <img src="images/hobbies/drive_2.jpg" alt="Image 2" class="image">
-            <div class="middle">
-                <div class="text">Stark 𖹭</div>
-            </div>
-        </div>
+        <p>If you'd like to connect, you can reach me through email or my social channels below. You can also send me an email at <a href="mailto:dbcustodio@up.edu.ph">dbcustodio@up.edu.ph</a></p>
 
-        <div class="image-container">
-            <img src="images/hobbies/drive_3.jpg" alt="Image 3" class="image">
-            <div class="middle">
-                <div class="text">went go karting in Carmona</div>
-            </div>
-        </div>
-    </div>
-    <br/>
+        <footer style="text-align: center; background-color: rgb(126, 103, 51);"">
+            <nav style = "text-align: center;">
+                <ul>
+                    <li><a href="https://www.instagram.com/nbcustodio/" target="blank">Instagram</a></li>
+                    <li><a href="https://x.com/nbcustodio/">x</a></li>
+                    <li><a href="https://www.linkedin.com/in/danica-custodio/" target=blank>LinkedIn</a></li>
+                </ul>
+            </nav>
+        </footer>
 
-    <p>I like spending my free time practicing <span style = "font-family: 'Pacifico'; font-weight: lighter; color: #3e5f70;"><b>calligraphy</b></span> and exploring <span style = "font-family: 'Pacifico'; font-weight: lighter; color: #3e5f70;"><b>typography</b></span>. I usually write my favorite phrases from the books I read or the shows I watch, trying different pens, brushes and lettering styles. My works aren't perfect but I enjoy slowly improving and learning new techniques as I go. Writing, in general, has become a small escape for me when I feel stressed. It is a simple and relaxing hobby that lets me play around with letters while enjoying words and lines that stand out to me.</p>
+        <script>
+            function showFunFact() {
+                const facts = [
+                    "I consider McDonald’s tasting a serious part of every country I visit",
+                    "Every snow globe I own is basically a tiny time capsule of my travels",
+                    "I treat puzzles like personal challenges I cannot emotionally ignore",
+                    "I will absolutely binge GL shows if the chemistry is even slightly convincing"
+                ];
 
-    <div class="gallery">
-        <div class="image-container">
-            <img src="images/hobbies/calli_1.jpg" alt="Image 1" class="image">
-            <div class="middle">
-                <div class="text">Thirteen Reasons Why</div>
-            </div>
-        </div>
-
-        <div class="image-container">
-            <img src="images/hobbies/calli_2.jpg" alt="Image 2" class="image">
-            <div class="middle">
-                <div class="text">A Self Portrait in Letters</div>
-            </div>
-        </div>
-
-        <div class="image-container">
-            <img src="images/hobbies/calli_3.jpg" alt="Image 3" class="image">
-            <div class="middle">
-                <div class="text">You Know Me Well</div>
-            </div>
-        </div>
-    </div>
-
-    <img src="images/border.png" alt="border" class="border-img">
-
-    <div style="text-align: center;">
-        <span style = "font-family: 'Pacifico'; font-weight: lighter; color: #3e5f70; align-content: center;"><a href="https://www.instagram.com/nbcustodio/" target="_blank"><b>instagram</a>&emsp;𖹭&emsp;<a href="https://www.linkedin.com/in/danica-custodio/" target="_blank">linkedin</a>&emsp;𖹭&emsp;<a href="https://x.com/nbcustodio" target="_blank">x</b></a></span></p>
-    </div>
-
-</body>
+                const randomIndex = Math.floor(Math.random() * facts.length);
+                document.getElementById("fun-fact").innerText = facts[randomIndex];
+            }
+        </script>
+    </body>
 </html>
+ 
