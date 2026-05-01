@@ -30,7 +30,7 @@ nav ul {
 
 nav ul li {
     display: inline;
-    border-right: 2px solid #59726f;
+    border-right: 1px solid #59726f;
     padding-right: 8px;
     padding-left: 8px;
 }
@@ -71,11 +71,9 @@ nav li.selected {
 
 .border-img {
     display: block;
-    margin-top: 40px;
-    margin-bottom: 40px;
     margin-left: auto;
     margin-right: auto;
-    width: 300px;
+    width: 60%
 }
 
 .connect-img {
@@ -98,7 +96,7 @@ h1 {
 h2 {
     font-family: 'Archivo Narrow'; 
     margin-top: 0;
-    margin-bottom: 30px;
+    margin-bottom: 3%;
     letter-spacing: 2px;
     font-size: 100%;
     font-weight: lighter;
@@ -113,7 +111,7 @@ h3 {
     font-size: 150%;
     letter-spacing: 2px;
     text-align: center;
-    margin-bottom: 0;
+    margin-bottom: 2%;
 }
 
 h4 {
@@ -123,7 +121,6 @@ h4 {
     font-weight: lighter;
     text-transform: uppercase;
     text-align: center;
-    margin-top: 0;
 }
 
 .gallery {
@@ -177,4 +174,69 @@ h4 {
   text-align: center;
   padding: 8px 16px;
   margin: 0;
+}
+
+.fun-btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #765b4c;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.fun-btn:hover {
+    background-color: #ab8774;
+    color: white;
+}
+
+/* phone settings */
+@media (max-width: 600px) {
+    body {
+        max-width: 100%;
+        padding: 12px;
+        font-size: 100%;
+    }
+
+    h1 {
+        font-size: 200%;
+    }
+
+    nav ul {
+        text-align: center;
+        padding: 10px;
+    }
+
+    nav ul li {
+        display: block;
+        border-right: none;
+        border-bottom: 1px solid #59726f;
+        padding: 10px 0;
+    }
+
+    nav ul li:last-child {
+        border-bottom: none;
+    }
+
+    .gallery {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .image-container {
+        width: 100%;
+    }
+
+    .center-img,
+    .connect-img,
+    .border-img {
+        width: 95%;
+    }
+
+    .text {
+        font-size: 120%;
+    }
 }
